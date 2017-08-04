@@ -1,0 +1,12 @@
+<cryasset>
+ <AssetMetadata version="0" type="Animation" guid="{451CAE5B-DA8B-FDFC-24BF-A23ABFF0AC8E}" source="jog_fwd_3p.i_caf">
+  <Files>
+   <File path="jog_fwd_3p.caf"/>
+  </Files>
+  <Details>
+   <Detail name="materialCount">0</Detail>
+   <Detail name="triangleCount">0</Detail>
+   <Detail name="vertexCount">0</Detail>
+  </Details>
+ </AssetMetadata>
+</cryasset>

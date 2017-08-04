@@ -1,0 +1,708 @@
+<root>
+	<thread name="Main" totalTimeMS="1767.892578" startTime="4380156077559" stopTime="4380160552530" totalBlocks="1416"> 
+		<block name="CCryEditDoc::DoOpenDocument" totalTimeMS="1767.872437" startTime="4380156077609" stopTime="4380160552529" args=""> 
+			<block name="CCryPak::OpenArchive" totalTimeMS="0.282075" startTime="4380156077651" stopTime="4380156078365" args="assets\levels\lofall\lofall.cry"> 
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.384791" startTime="4380156078395" stopTime="4380156079369" args="Assets/Levels/Lofall/Level.editor_xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="0.378470" startTime="4380156078410" stopTime="4380156079368" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.100346" startTime="4380156078421" stopTime="4380156078675" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CCryAction::EndGameContext" totalTimeMS="9.246829" startTime="4380156117790" stopTime="4380156141196" args=""> 
+			</block>
+			<block name="CCryEditDoc::Load" totalTimeMS="1675.887329" startTime="4380156212523" stopTime="4380160454606" args=""> 
+				<block name="CCryAction::StartGameContext" totalTimeMS="79.231735" startTime="4380156223517" stopTime="4380156424072" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.727705" startTime="4380156223561" stopTime="4380156225403" args="Config/DefaultScripts/CompressionPolicy.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.721384" startTime="4380156223576" stopTime="4380156225402" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.829631" startTime="4380156225925" stopTime="4380156228025" args="Scripts/Network/CompressionPolicy.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.826075" startTime="4380156225933" stopTime="4380156228024" args=""> 
+						</block>
+					</block>
+					<block name="CActionGame::BlockingConnect" totalTimeMS="71.075668" startTime="4380156244106" stopTime="4380156424016" args=""> 
+					</block>
+				</block>
+				<block name="CEntitySystem::SpawnEntity" totalTimeMS="0.274963" startTime="4380156424105" stopTime="4380156424801" args="SinglePlayer"> 
+				</block>
+				<block name="CLevelSystem::OnLoadingStart" totalTimeMS="446.546875" startTime="4380156424824" stopTime="4380157555144" args=""> 
+					<block name="CFlowGraphModuleManager::ScanForModules" totalTimeMS="445.891876" startTime="4380156426391" stopTime="4380157555053" args=""> 
+						<block name="CFlowGraphModuleManager::RescanModuleNames" totalTimeMS="0.165926" startTime="4380156426395" stopTime="4380156426815" args=""> 
+						</block>
+						<block name="CEditorFlowGraphModuleManager::OnScannedForModules" totalTimeMS="445.622040" startTime="4380156427061" stopTime="4380157555040" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CActionGame::BlockingConnect" totalTimeMS="108.292915" startTime="4380157555156" stopTime="4380157829272" args=""> 
+					<block name="CEntitySystem::SpawnEntity" totalTimeMS="0.696495" startTime="4380157826141" stopTime="4380157827904" args="Player"> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.330272" startTime="4380157826491" stopTime="4380157827327" args="Libs/config/defaultprofile.xml"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.323556" startTime="4380157826507" stopTime="4380157827326" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.140247" startTime="4380157826521" stopTime="4380157826876" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.288791" startTime="4380157878362" stopTime="4380157879093" args="assets/levels/lofall/LevelData/TimeOfDay.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.283655" startTime="4380157878375" stopTime="4380157879093" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.132741" startTime="4380157878389" stopTime="4380157878725" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.284445" startTime="4380157879121" stopTime="4380157879841" args="assets/levels/lofall/LevelData/Environment.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.279309" startTime="4380157879133" stopTime="4380157879840" args=""> 
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="0.692939" startTime="4380158004217" stopTime="4380158005971" args="EngineAssets/Materials/material_terrain_default"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.226766" startTime="4380158004229" stopTime="4380158004803" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.148148" startTime="4380158004258" stopTime="4380158004633" args="EngineAssets/Materials/material_terrain_default.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.142222" startTime="4380158004272" stopTime="4380158004632" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CHeightmap::SerializeTerrain" totalTimeMS="27.637772" startTime="4380158036343" stopTime="4380158106301" args=""> 
+					<block name="CTerrain::Load_T" totalTimeMS="27.298414" startTime="4380158037202" stopTime="4380158106301" args=""> 
+						<block name="BuildSectorsTree" totalTimeMS="9.341249" startTime="4380158037214" stopTime="4380158060859" args=""> 
+							<block name="CLog::LogPlus" totalTimeMS="4.204648" startTime="4380158050066" stopTime="4380158060709" args=""> 
+							</block>
+						</block>
+						<block name="Vegetation" totalTimeMS="4.395069" startTime="4380158060865" stopTime="4380158071990" args=""> 
+						</block>
+						<block name="Brushes" totalTimeMS="4.188846" startTime="4380158071995" stopTime="4380158082598" args=""> 
+						</block>
+						<block name="TerrainNodes" totalTimeMS="5.109736" startTime="4380158082613" stopTime="4380158095547" args=""> 
+						</block>
+						<block name="PostTerrain" totalTimeMS="0.101136" startTime="4380158106036" stopTime="4380158106292" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.229136" startTime="4380158143262" stopTime="4380158143842" args="assets/levels/lofall/LevelData/TerrainTexture.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.222815" startTime="4380158143277" stopTime="4380158143841" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.112198" startTime="4380158143290" stopTime="4380158143574" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="215.606857" startTime="4380158153097" stopTime="4380158698851" args=""> 
+					<block name="CTerrainManager::ReloadSurfaceTypes" totalTimeMS="131.011368" startTime="4380158153099" stopTime="4380158484721" args=""> 
+						<block name="CTerrain::LoadSurfaceTypesFromXML" totalTimeMS="3.300746" startTime="4380158153178" stopTime="4380158161533" args=""> 
+						</block>
+						<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="99.882034" startTime="4380158231727" stopTime="4380158484553" args=""> 
+							<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="99.879662" startTime="4380158231732" stopTime="4380158484552" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="84.593910" startTime="4380158484723" stopTime="4380158698851" args=""> 
+					</block>
+				</block>
+				<block name="CGameEngine::LoadLevel" totalTimeMS="123.455009" startTime="4380158718719" stopTime="4380159031214" args=""> 
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.205432" startTime="4380158728667" stopTime="4380158729187" args="assets\levels\lofall\level.pak"> 
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.133926" startTime="4380158729199" stopTime="4380158729538" args="assets\levels\lofall\terraintexture.pak"> 
+					</block>
+					<block name="C3DEngine::InitLevelForEditor" totalTimeMS="118.844627" startTime="4380158729787" stopTime="4380159030612" args=""> 
+						<block name="CMatMan::LoadMaterial" totalTimeMS="71.420166" startTime="4380158730443" stopTime="4380158911225" args="EngineAssets/Materials/Fog/FogVolumeEllipsoid"> 
+							<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.263112" startTime="4380158730489" stopTime="4380158731155" args=""> 
+								<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.214124" startTime="4380158730511" stopTime="4380158731053" args="EngineAssets/Materials/Fog/FogVolumeEllipsoid.mtl"> 
+									<block name="XmlParserImp::ParseFile" totalTimeMS="0.208988" startTime="4380158730523" stopTime="4380158731052" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.107852" startTime="4380158730530" stopTime="4380158730803" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="70.599220" startTime="4380158731172" stopTime="4380158909876" args="FogVolume.Ellipsoid"> 
+								<block name="CCryPak::FReadRaw" totalTimeMS="0.103901" startTime="4380158731952" stopTime="4380158732215" args=""> 
+									<block name="CZipPseudoFile::FRead" totalTimeMS="0.103506" startTime="4380158731952" stopTime="4380158732214" args=""> 
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX" totalTimeMS="70.024803" startTime="4380158732616" stopTime="4380158909866" args="Shaders/Cache/D3D11/FogVolume.cfxb"> 
+									<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="29.978912" startTime="4380158736504" stopTime="4380158812388" args=""> 
+										<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="19.192524" startTime="4380158736529" stopTime="4380158785110" args=""> 
+											<block name="CResFile::mfActivate" totalTimeMS="0.100741" startTime="4380158736842" stopTime="4380158737097" args=""> 
+											</block>
+											<block name="CCryPak::FReadRaw" totalTimeMS="18.941265" startTime="4380158737105" stopTime="4380158785050" args=""> 
+												<block name="CZipPseudoFile::FRead" totalTimeMS="18.938105" startTime="4380158737106" stopTime="4380158785043" args=""> 
+												</block>
+											</block>
+										</block>
+										<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="10.767819" startTime="4380158785114" stopTime="4380158812370" args=""> 
+											<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.126025" startTime="4380158785189" stopTime="4380158785508" args=""> 
+											</block>
+											<block name="CResFile::mfActivate" totalTimeMS="0.118519" startTime="4380158785790" stopTime="4380158786090" args=""> 
+												<block name="CCryPak::FOpen" totalTimeMS="0.117334" startTime="4380158785793" stopTime="4380158786090" args=""> 
+												</block>
+											</block>
+											<block name="CCryPak::FReadRaw" totalTimeMS="10.356560" startTime="4380158786103" stopTime="4380158812318" args=""> 
+												<block name="CZipPseudoFile::FRead" totalTimeMS="10.354189" startTime="4380158786104" stopTime="4380158812313" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="38.407963" startTime="4380158812450" stopTime="4380158909670" args=""> 
+										<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="5.730380" startTime="4380158812484" stopTime="4380158826989" args=""> 
+											<block name="CResFile::mfActivate" totalTimeMS="0.125235" startTime="4380158812771" stopTime="4380158813088" args=""> 
+												<block name="CCryPak::FOpen" totalTimeMS="0.124050" startTime="4380158812774" stopTime="4380158813088" args=""> 
+												</block>
+											</block>
+											<block name="CCryPak::FReadRaw" totalTimeMS="5.453441" startTime="4380158813137" stopTime="4380158826941" args=""> 
+												<block name="CZipPseudoFile::FRead" totalTimeMS="5.435663" startTime="4380158813138" stopTime="4380158826897" args=""> 
+												</block>
+											</block>
+										</block>
+										<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="32.657040" startTime="4380158826992" stopTime="4380158909655" args=""> 
+											<block name="CCryPak::FReadRaw" totalTimeMS="32.401432" startTime="4380158827590" stopTime="4380158909606" args=""> 
+												<block name="CZipPseudoFile::FRead" totalTimeMS="32.397484" startTime="4380158827596" stopTime="4380158909602" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CMatMan::LoadMaterial" totalTimeMS="0.602865" startTime="4380158911233" stopTime="4380158912759" args="EngineAssets/Materials/Fog/FogVolumeBox"> 
+							<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.292741" startTime="4380158911239" stopTime="4380158911980" args=""> 
+								<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.242963" startTime="4380158911261" stopTime="4380158911876" args="EngineAssets/Materials/Fog/FogVolumeBox.mtl"> 
+									<block name="XmlParserImp::ParseFile" totalTimeMS="0.222025" startTime="4380158911313" stopTime="4380158911875" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CCryPak::FReadRawAll" totalTimeMS="0.857285" startTime="4380158912904" stopTime="4380158915074" args=""> 
+							<block name="CZipPseudoFile::FReadAll" totalTimeMS="0.856495" startTime="4380158912905" stopTime="4380158915073" args=""> 
+								<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.687013" startTime="4380158913050" stopTime="4380158914789" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CShaderManBin::ParseBinFX" totalTimeMS="37.536850" startTime="4380158920852" stopTime="4380159015867" args="Shaders/Cache/D3D11/Stars.cfxb"> 
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="35.771709" startTime="4380158925081" stopTime="4380159015628" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="10.467572" startTime="4380158925145" stopTime="4380158951641" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.114173" startTime="4380158925162" stopTime="4380158925451" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="10.157053" startTime="4380158925835" stopTime="4380158951545" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="10.155078" startTime="4380158925836" stopTime="4380158951541" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="25.134262" startTime="4380158951643" stopTime="4380159015264" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.126815" startTime="4380158952024" stopTime="4380158952345" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.125630" startTime="4380158952026" stopTime="4380158952344" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="24.796089" startTime="4380158952356" stopTime="4380159015121" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="24.794113" startTime="4380158952357" stopTime="4380159015117" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.133926" startTime="4380159015267" stopTime="4380159015606" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="C3DEngine::LoadParticleEffects" totalTimeMS="5.305687" startTime="4380159016689" stopTime="4380159030119" args=""> 
+							<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.276544" startTime="4380159028925" stopTime="4380159029625" args="assets/levels/lofall/LevelParticles.xml"> 
+								<block name="XmlParserImp::ParseFile" totalTimeMS="0.268247" startTime="4380159028945" stopTime="4380159029624" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.142618" startTime="4380159029019" stopTime="4380159029380" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.108247" startTime="4380159030127" stopTime="4380159030401" args=""> 
+						</block>
+					</block>
+					<block name="CMaterialFGManager::LoadLibs" totalTimeMS="0.153679" startTime="4380159030820" stopTime="4380159031209" args=""> 
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.370568" startTime="4380159121011" stopTime="4380159121949" args="assets/levels/lofall/LevelData/GameTokens.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.337778" startTime="4380159121093" stopTime="4380159121948" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.188445" startTime="4380159121107" stopTime="4380159121584" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CTerrainManager::ReloadSurfaceTypes" totalTimeMS="124.426460" startTime="4380159284455" stopTime="4380159599409" args=""> 
+					<block name="CTerrain::LoadSurfaceTypesFromXML" totalTimeMS="4.191612" startTime="4380159284531" stopTime="4380159295141" args=""> 
+					</block>
+					<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="91.027107" startTime="4380159368802" stopTime="4380159599214" args=""> 
+						<block name="CHeightmap::UpdateEngineTerrain" totalTimeMS="91.025917" startTime="4380159368805" stopTime="4380159599214" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CAISystem::LoadLevelData" totalTimeMS="0.815804" startTime="4380159680068" stopTime="4380159682133" args=""> 
+					<block name="CAISystem::LoadNavigationData" totalTimeMS="0.813038" startTime="4380159680075" stopTime="4380159682133" args=""> 
+						<block name="CAISystem::Reset" totalTimeMS="0.409680" startTime="4380159680077" stopTime="4380159681114" args=""> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.129580" startTime="4380159681297" stopTime="4380159681625" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.312099" startTime="4380159694036" stopTime="4380159694826" args="assets/levels/lofall\Layers/Main.lyr"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.303013" startTime="4380159694058" stopTime="4380159694825" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.112593" startTime="4380159694071" stopTime="4380159694356" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CCryPak::FOpen" totalTimeMS="0.115753" startTime="4380159694963" stopTime="4380159695256" args=""> 
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="3.335907" startTime="4380159702873" stopTime="4380159711317" args="assets\libs\environmentpresets\lofall.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="3.309832" startTime="4380159702934" stopTime="4380159711312" args=""> 
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="57.870705" startTime="4380159724468" stopTime="4380159870953" args="EngineAssets/Materials/Water/Ocean_default"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.329877" startTime="4380159724474" stopTime="4380159725309" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.272198" startTime="4380159724499" stopTime="4380159725188" args="EngineAssets/Materials/Water/Ocean_default.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.267457" startTime="4380159724510" stopTime="4380159725187" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.116148" startTime="4380159724520" stopTime="4380159724814" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="56.913074" startTime="4380159725319" stopTime="4380159869380" args="Water"> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.141037" startTime="4380159725459" stopTime="4380159725816" args=""> 
+						</block>
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.250074" startTime="4380159726441" stopTime="4380159727074" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="0.249284" startTime="4380159726442" stopTime="4380159727073" args=""> 
+								<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.163161" startTime="4380159726525" stopTime="4380159726938" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CShaderManBin::LoadBinShader" totalTimeMS="0.181729" startTime="4380159727446" stopTime="4380159727906" args=""> 
+						</block>
+						<block name="CShaderManBin::ParseBinFX" totalTimeMS="55.884331" startTime="4380159727913" stopTime="4380159869370" args="Shaders/Cache/D3D11/Water.cfxb"> 
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="52.648773" startTime="4380159735701" stopTime="4380159868968" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="11.412561" startTime="4380159735937" stopTime="4380159764825" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.680692" startTime="4380159735961" stopTime="4380159737684" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.109432" startTime="4380159737916" stopTime="4380159738193" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.107852" startTime="4380159737919" stopTime="4380159738192" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="10.492066" startTime="4380159738203" stopTime="4380159764761" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="10.489696" startTime="4380159738204" stopTime="4380159764756" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="22.682110" startTime="4380159764828" stopTime="4380159822242" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.584297" startTime="4380159764859" stopTime="4380159766338" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.120889" startTime="4380159766622" stopTime="4380159766928" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.119309" startTime="4380159766625" stopTime="4380159766927" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="21.773861" startTime="4380159766938" stopTime="4380159822053" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="21.771095" startTime="4380159766942" stopTime="4380159822050" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.150914" startTime="4380159822245" stopTime="4380159822627" args=""> 
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="12.967921" startTime="4380159822627" stopTime="4380159855452" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.425877" startTime="4380159822647" stopTime="4380159823725" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.131556" startTime="4380159823923" stopTime="4380159824256" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.129976" startTime="4380159823926" stopTime="4380159824255" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="12.280909" startTime="4380159824267" stopTime="4380159855353" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="12.278538" startTime="4380159824268" stopTime="4380159855348" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="5.327416" startTime="4380159855455" stopTime="4380159868940" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.378470" startTime="4380159855497" stopTime="4380159856455" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.120494" startTime="4380159856848" stopTime="4380159857153" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.119309" startTime="4380159856851" stopTime="4380159857153" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="4.631711" startTime="4380159857163" stopTime="4380159868887" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="4.629736" startTime="4380159857164" stopTime="4380159868883" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="25.469669" startTime="4380159870982" stopTime="4380159935452" args="EngineAssets/Materials/Water/WaterOceanBottom"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.183704" startTime="4380159870990" stopTime="4380159871455" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.142618" startTime="4380159871015" stopTime="4380159871376" args="EngineAssets/Materials/Water/WaterOceanBottom.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.137482" startTime="4380159871027" stopTime="4380159871375" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="24.864830" startTime="4380159871461" stopTime="4380159934400" args="WaterOceanBottom"> 
+						<block name="CShaderManBin::ParseBinFX" totalTimeMS="24.383644" startTime="4380159872670" stopTime="4380159934391" args="Shaders/Cache/D3D11/WaterOceanBottom.cfxb"> 
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="21.998257" startTime="4380159876705" stopTime="4380159932388" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="15.027777" startTime="4380159876739" stopTime="4380159914778" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.124840" startTime="4380159877007" stopTime="4380159877323" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.124050" startTime="4380159877009" stopTime="4380159877323" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="14.753604" startTime="4380159877377" stopTime="4380159914722" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="14.752024" startTime="4380159877377" stopTime="4380159914718" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="6.845245" startTime="4380159914781" stopTime="4380159932108" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.105877" startTime="4380159915070" stopTime="4380159915338" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.104692" startTime="4380159915072" stopTime="4380159915337" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="6.596356" startTime="4380159915346" stopTime="4380159932043" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="6.592405" startTime="4380159915352" stopTime="4380159932039" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="0.726915" startTime="4380159932398" stopTime="4380159934238" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.319605" startTime="4380159932435" stopTime="4380159933244" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.101136" startTime="4380159932602" stopTime="4380159932858" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.140642" startTime="4380159932866" stopTime="4380159933222" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.139852" startTime="4380159932867" stopTime="4380159933221" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.337383" startTime="4380159933245" stopTime="4380159934099" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.143408" startTime="4380159933719" stopTime="4380159934082" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.142222" startTime="4380159933720" stopTime="4380159934080" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="24.332285" startTime="4380159935457" stopTime="4380159997048" args="EngineAssets/Materials/Fog/OceanInto"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.241383" startTime="4380159935463" stopTime="4380159936074" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.193976" startTime="4380159935485" stopTime="4380159935976" args="EngineAssets/Materials/Fog/OceanInto.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.188445" startTime="4380159935499" stopTime="4380159935976" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="23.639742" startTime="4380159936080" stopTime="4380159995918" args="WaterFogVolume.OceanInto"> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.133531" startTime="4380159936883" stopTime="4380159937221" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="0.133531" startTime="4380159936883" stopTime="4380159937221" args=""> 
+								<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.100741" startTime="4380159936907" stopTime="4380159937162" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CShaderManBin::ParseBinFX" totalTimeMS="22.996580" startTime="4380159937698" stopTime="4380159995908" args="Shaders/Cache/D3D11/WaterFogVolume.cfxb"> 
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="9.495719" startTime="4380159942241" stopTime="4380159966277" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.563754" startTime="4380159942265" stopTime="4380159943692" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.193185" startTime="4380159942281" stopTime="4380159942770" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.240198" startTime="4380159943064" stopTime="4380159943672" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.239803" startTime="4380159943064" stopTime="4380159943671" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="8.914582" startTime="4380159943693" stopTime="4380159966258" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.211358" startTime="4380159943754" stopTime="4380159944289" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="8.479223" startTime="4380159944744" stopTime="4380159966207" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="8.477643" startTime="4380159944744" stopTime="4380159966203" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="1.693632" startTime="4380159966296" stopTime="4380159970583" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.796446" startTime="4380159966371" stopTime="4380159968387" args=""> 
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.500544" startTime="4380159967089" stopTime="4380159968356" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.499754" startTime="4380159967090" stopTime="4380159968355" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.862026" startTime="4380159968388" stopTime="4380159970570" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.234667" startTime="4380159968412" stopTime="4380159969006" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.108642" startTime="4380159969304" stopTime="4380159969579" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.108247" startTime="4380159969305" stopTime="4380159969579" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.375704" startTime="4380159969591" stopTime="4380159970542" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.374519" startTime="4380159969592" stopTime="4380159970540" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="8.771569" startTime="4380159970595" stopTime="4380159992798" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="8.121297" startTime="4380159970632" stopTime="4380159991189" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.130371" startTime="4380159971122" stopTime="4380159971452" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.129580" startTime="4380159971123" stopTime="4380159971451" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="7.773247" startTime="4380159971459" stopTime="4380159991135" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="7.771272" startTime="4380159971460" stopTime="4380159991131" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.548742" startTime="4380159991191" stopTime="4380159992580" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.170667" startTime="4380159991220" stopTime="4380159991652" args=""> 
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="0.127605" startTime="4380159992241" stopTime="4380159992564" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="0.126025" startTime="4380159992244" stopTime="4380159992563" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="0.321581" startTime="4380159992808" stopTime="4380159993622" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.184889" startTime="4380159993061" stopTime="4380159993529" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.168692" startTime="4380159993073" stopTime="4380159993500" args=""> 
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="0.534124" startTime="4380159993629" stopTime="4380159994981" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.385581" startTime="4380159993847" stopTime="4380159994823" args=""> 
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="0.295507" startTime="4380159994988" stopTime="4380159995736" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.103901" startTime="4380159995012" stopTime="4380159995275" args=""> 
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="0.147358" startTime="4380159995275" stopTime="4380159995648" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.137877" startTime="4380159995288" stopTime="4380159995637" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="0.697285" startTime="4380159997054" stopTime="4380159998819" args="EngineAssets/Materials/Fog/OceanOutof"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.235852" startTime="4380159997061" stopTime="4380159997658" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.186469" startTime="4380159997085" stopTime="4380159997557" args="EngineAssets/Materials/Fog/OceanOutof.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.180939" startTime="4380159997099" stopTime="4380159997557" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="0.660939" startTime="4380159998828" stopTime="4380160000501" args="EngineAssets/Materials/Fog/OceanIntoLowSpec"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.251655" startTime="4380159998833" stopTime="4380159999470" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.208988" startTime="4380159998857" stopTime="4380159999386" args="EngineAssets/Materials/Fog/OceanIntoLowSpec.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.204247" startTime="4380159998868" stopTime="4380159999385" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="0.521877" startTime="4380160000505" stopTime="4380160001826" args="EngineAssets/Materials/Fog/OceanOutofLowSpec"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.219655" startTime="4380160000508" stopTime="4380160001064" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.188445" startTime="4380160000524" stopTime="4380160001001" args="EngineAssets/Materials/Fog/OceanOutofLowSpec.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.184889" startTime="4380160000533" stopTime="4380160001001" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.109432" startTime="4380160000540" stopTime="4380160000817" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="50.432476" startTime="4380160012880" stopTime="4380160140537" args="EngineAssets/Materials/Sky/Sky"> 
+					<block name="CMaterialManager::LoadMaterial" totalTimeMS="0.323951" startTime="4380160012888" stopTime="4380160013708" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.248889" startTime="4380160012917" stopTime="4380160013547" args="EngineAssets/Materials/Sky/Sky.mtl"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.239013" startTime="4380160012941" stopTime="4380160013546" args=""> 
+								<block name="CCryPak::FOpen" totalTimeMS="0.116543" startTime="4380160012952" stopTime="4380160013247" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="49.533314" startTime="4380160013718" stopTime="4380160139099" args="SkyHDR"> 
+						<block name="CShaderManBin::LoadBinShader" totalTimeMS="0.110222" startTime="4380160015125" stopTime="4380160015404" args=""> 
+						</block>
+						<block name="CShaderManBin::ParseBinFX" totalTimeMS="48.858547" startTime="4380160015413" stopTime="4380160139086" args="Shaders/Cache/D3D11/SkyHDR.cfxb"> 
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="34.779316" startTime="4380160021987" stopTime="4380160110022" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="18.087534" startTime="4380160022080" stopTime="4380160067864" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.239408" startTime="4380160022103" stopTime="4380160022709" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.108642" startTime="4380160022907" stopTime="4380160023182" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.107852" startTime="4380160022909" stopTime="4380160023182" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="17.611879" startTime="4380160023193" stopTime="4380160067773" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="17.610300" startTime="4380160023194" stopTime="4380160067770" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="16.567730" startTime="4380160067867" stopTime="4380160109804" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.131161" startTime="4380160067898" stopTime="4380160068230" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.108247" startTime="4380160068413" stopTime="4380160068687" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.106667" startTime="4380160068416" stopTime="4380160068686" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="16.219284" startTime="4380160068695" stopTime="4380160109750" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="16.216915" startTime="4380160068696" stopTime="4380160109745" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="CShaderManBin::ParseBinFX_Technique" totalTimeMS="11.358438" startTime="4380160110030" stopTime="4380160138781" args=""> 
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="2.400794" startTime="4380160110105" stopTime="4380160116182" args=""> 
+									<block name="CResFile::mfActivate" totalTimeMS="0.164741" startTime="4380160110573" stopTime="4380160110990" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.163161" startTime="4380160110576" stopTime="4380160110989" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="2.021929" startTime="4380160111002" stopTime="4380160116120" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="2.019954" startTime="4380160111003" stopTime="4380160116116" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CShaderManBin::ParseBinFX_Technique_Pass_LoadShader" totalTimeMS="8.828459" startTime="4380160116185" stopTime="4380160138532" args=""> 
+									<block name="CShaderManBin::ParseBinFX_Technique_Pass_GenerateShaderData" totalTimeMS="0.175803" startTime="4380160116221" stopTime="4380160116666" args=""> 
+									</block>
+									<block name="CResFile::mfActivate" totalTimeMS="0.126420" startTime="4380160116898" stopTime="4380160117218" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.124840" startTime="4380160116901" stopTime="4380160117217" args=""> 
+										</block>
+									</block>
+									<block name="CCryPak::FReadRaw" totalTimeMS="8.378878" startTime="4380160117229" stopTime="4380160138438" args=""> 
+										<block name="CZipPseudoFile::FRead" totalTimeMS="8.376507" startTime="4380160117230" stopTime="4380160138433" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CDialogSystem::ReloadScripts" totalTimeMS="0.328297" startTime="4380160224356" stopTime="4380160225187" args=""> 
+				</block>
+				<block name="C3DEngine::PostLoadLevel" totalTimeMS="88.299202" startTime="4380160225567" stopTime="4380160449074" args=""> 
+					<block name="CD3D9Renderer::PostLevelLoading" totalTimeMS="83.799438" startTime="4380160235814" stopTime="4380160447931" args=""> 
+						<block name="CD3D9Renderer::PostLevelLoading" totalTimeMS="74.188362" startTime="4380160260142" stopTime="4380160447931" args=""> 
+							<block name="CTexture::Precache" totalTimeMS="74.187576" startTime="4380160260143" stopTime="4380160447930" args=""> 
+								<block name="CTexture::RT_Precache" totalTimeMS="64.815903" startTime="4380160271742" stopTime="4380160435807" args=""> 
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.636050" startTime="4380160286386" stopTime="4380160287996" args="EngineAssets/CodeCoverage/hit.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.634470" startTime="4380160286389" stopTime="4380160287995" args="EngineAssets/CodeCoverage/hit.dds"> 
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.143408" startTime="4380160287629" stopTime="4380160287992" args="engineassets/codecoverage/hit.dds"> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.535705" startTime="4380160287997" stopTime="4380160289353" args="EngineAssets/CodeCoverage/pbar.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.534914" startTime="4380160287998" stopTime="4380160289352" args="EngineAssets/CodeCoverage/pbar.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.114568" startTime="4380160288371" stopTime="4380160288661" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.111013" startTime="4380160288372" stopTime="4380160288653" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.445235" startTime="4380160289354" stopTime="4380160290481" args="EngineAssets/CodeCoverage/unexpected.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.444840" startTime="4380160289354" stopTime="4380160290480" args="EngineAssets/CodeCoverage/unexpected.dds"> 
+											<block name="CCryPak::FOpen" totalTimeMS="0.135506" startTime="4380160289620" stopTime="4380160289963" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.616297" startTime="4380160306722" stopTime="4380160308282" args="EngineAssets/Icons/AverageMemoryUsage.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.613137" startTime="4380160306729" stopTime="4380160308281" args="EngineAssets/Icons/AverageMemoryUsage.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.126420" startTime="4380160307364" stopTime="4380160307684" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.122074" startTime="4380160307365" stopTime="4380160307674" args=""> 
+												</block>
+											</block>
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.233087" startTime="4380160307686" stopTime="4380160308276" args="engineassets/icons/averagememoryusage.dds"> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.439704" startTime="4380160318254" stopTime="4380160319367" args="EngineAssets/Icons/HighMemoryUsage.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.437729" startTime="4380160318257" stopTime="4380160319365" args="EngineAssets/Icons/HighMemoryUsage.dds"> 
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.131161" startTime="4380160319029" stopTime="4380160319361" args="engineassets/icons/highmemoryusage.dds"> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.414815" startTime="4380160332143" stopTime="4380160333193" args="EngineAssets/Icons/LivePreview.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.413235" startTime="4380160332146" stopTime="4380160333192" args="EngineAssets/Icons/LivePreview.dds"> 
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.123655" startTime="4380160332875" stopTime="4380160333188" args="engineassets/icons/livepreview.dds"> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.294717" startTime="4380160333194" stopTime="4380160333940" args="EngineAssets/Icons/LowMemoryUsage.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.293926" startTime="4380160333195" stopTime="4380160333939" args="EngineAssets/Icons/LowMemoryUsage.dds"> 
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.728495" startTime="4380160347384" stopTime="4380160349228" args="EngineAssets/TextureMsg/DefaultNoUVs.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.727705" startTime="4380160347386" stopTime="4380160349228" args="EngineAssets/TextureMsg/DefaultNoUVs.dds"> 
+											<block name="CCryPak::FOpen" totalTimeMS="0.107062" startTime="4380160347643" stopTime="4380160347914" args=""> 
+											</block>
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.131951" startTime="4380160348093" stopTime="4380160348427" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.127210" startTime="4380160348094" stopTime="4380160348416" args=""> 
+												</block>
+											</block>
+											<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.180939" startTime="4380160348769" stopTime="4380160349227" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.609581" startTime="4380160359891" stopTime="4380160361434" args="EngineAssets/Textures/defaults/16_12.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.608396" startTime="4380160359894" stopTime="4380160361434" args="EngineAssets/Textures/defaults/16_12.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.125235" startTime="4380160360370" stopTime="4380160360687" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.122469" startTime="4380160360371" stopTime="4380160360681" args=""> 
+												</block>
+											</block>
+											<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.184099" startTime="4380160360967" stopTime="4380160361433" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.663705" startTime="4380160373139" stopTime="4380160374819" args="EngineAssets/Textures/defaults/16_34.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.662125" startTime="4380160373142" stopTime="4380160374818" args="EngineAssets/Textures/defaults/16_34.dds"> 
+											<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.185284" startTime="4380160374348" stopTime="4380160374817" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.546371" startTime="4380160374819" stopTime="4380160376202" args="EngineAssets/Textures/defaults/16_5.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.544001" startTime="4380160374824" stopTime="4380160376201" args="EngineAssets/Textures/defaults/16_5.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.107062" startTime="4380160375446" stopTime="4380160375717" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.105482" startTime="4380160375446" stopTime="4380160375713" args=""> 
+												</block>
+											</block>
+											<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.108642" startTime="4380160375925" stopTime="4380160376200" args=""> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.845433" startTime="4380160387909" stopTime="4380160390049" args="EngineAssets/Textures/defaults/16_grey.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="0.843063" startTime="4380160387913" stopTime="4380160390047" args="EngineAssets/Textures/defaults/16_grey.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.104296" startTime="4380160388631" stopTime="4380160388895" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="0.101136" startTime="4380160388632" stopTime="4380160388888" args=""> 
+												</block>
+											</block>
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.161976" startTime="4380160389633" stopTime="4380160390043" args="engineassets/textures/defaults/16_grey.dds"> 
+											</block>
+										</block>
+									</block>
+									<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="5.488997" startTime="4380160402241" stopTime="4380160416135" args="EngineAssets/Textures/Skys/Night/half_moon.dds"> 
+										<block name="CTexture::LoadFromImage" totalTimeMS="5.487021" startTime="4380160402244" stopTime="4380160416133" args="EngineAssets/Textures/Skys/Night/half_moon.dds"> 
+											<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="4.559414" startTime="4380160402972" stopTime="4380160414513" args=""> 
+												<block name="CImageDDSFile::Load" totalTimeMS="4.336205" startTime="4380160402973" stopTime="4380160413949" args=""> 
+													<block name="CCryPak::FReadRaw" totalTimeMS="2.500745" startTime="4380160403415" stopTime="4380160409745" args=""> 
+														<block name="CZipPseudoFile::FRead" totalTimeMS="2.499954" startTime="4380160403415" stopTime="4380160409743" args=""> 
+															<block name="ZipDir::ZipRawUncompress" totalTimeMS="1.885238" startTime="4380160403601" stopTime="4380160408373" args=""> 
+															</block>
+														</block>
+													</block>
+													<block name="CCryPak::FReadRaw" totalTimeMS="0.685433" startTime="4380160409972" stopTime="4380160411707" args=""> 
+														<block name="CZipPseudoFile::FRead" totalTimeMS="0.685038" startTime="4380160409972" stopTime="4380160411706" args=""> 
+															<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.506865" startTime="4380160410024" stopTime="4380160411307" args=""> 
+															</block>
+														</block>
+													</block>
+													<block name="CCryPak::FReadRaw" totalTimeMS="0.348445" startTime="4380160411940" stopTime="4380160412822" args=""> 
+														<block name="CZipPseudoFile::FRead" totalTimeMS="0.348050" startTime="4380160411941" stopTime="4380160412822" args=""> 
+															<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.292741" startTime="4380160411977" stopTime="4380160412718" args=""> 
+															</block>
+														</block>
+													</block>
+													<block name="CCryPak::FReadRaw" totalTimeMS="0.125235" startTime="4380160413047" stopTime="4380160413364" args=""> 
+														<block name="CZipPseudoFile::FRead" totalTimeMS="0.124445" startTime="4380160413048" stopTime="4380160413363" args=""> 
+															<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.104692" startTime="4380160413075" stopTime="4380160413340" args=""> 
+															</block>
+														</block>
+													</block>
+													<block name="CCryPak::FOpen" totalTimeMS="0.101531" startTime="4380160413371" stopTime="4380160413628" args=""> 
+													</block>
+												</block>
+											</block>
+											<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.634865" startTime="4380160414517" stopTime="4380160416124" args="engineassets/textures/skys/night/half_moon.dds"> 
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.133531" startTime="4380160482774" stopTime="4380160483112" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>

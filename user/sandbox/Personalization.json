@@ -1,0 +1,20 @@
+{
+    "EngineFileDialog": {
+        "favorites": [
+        ],
+        "history": [
+            "/Textures/defaults",
+            "/Materials"
+        ]
+    },
+    "FavoritesHelper": {
+        "Asset Browser": null
+    },
+    "LevelEditor": {
+        "Recent Files": [
+            "Assets/Levels/Lofall/Lofall.cry",
+            "assets/Levels/Lofall/Lofall.cry",
+            "Assets/Levels/example/example.cry"
+        ]
+    }
+}
