@@ -1,0 +1,6 @@
+<download name="lofall" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1080746" md5="74c3365e6ce74fc021c3dc189e32082a"/>
+ </files>
+</download>
