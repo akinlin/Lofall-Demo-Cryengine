@@ -1,0 +1,13 @@
+*.exe
+*.lib
+*.DS_STORE
+Bin32/
+Bin64/
+BinTemp/
+*.log
+logbackups/
+user/
+Editor/
+error.dmp
+error.jpg
+luac.out
