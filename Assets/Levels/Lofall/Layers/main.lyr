@@ -1,3 +1,13 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1"/>
+ <Layer Name="Main" FullName="Main" GUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{0C50A4E2-F1A4-7F6C-9EAE-1241AD6CF49F}" Name="SpawnPoint1" Pos="437.39456,521.00446,13.510423" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{EC4E2FDC-DCFF-4AB3-A691-B9CC4ECE5788}"/>
+     <Component typeId="{10000000-1000-1000-1000-100000000000}"/>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
 </ObjectLayer>
