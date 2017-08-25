@@ -4,9 +4,9 @@
 Bin32/
 Bin64/
 BinTemp/
-*.log
+*.*log
 logbackups/
-user/
+user*/
 Editor/
 error.dmp
 error.jpg
