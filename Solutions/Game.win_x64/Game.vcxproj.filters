@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\StdAfx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\GamePlugin.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Game\GameRules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Bullet.cpp">
+      <Filter>Entities\Gameplay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Rifle.cpp">
+      <Filter>Entities\Gameplay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\SpawnPoint.cpp">
+      <Filter>Entities\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Animations\PlayerAnimations.cpp">
+      <Filter>Player\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Input\PlayerInput.cpp">
+      <Filter>Player\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Movement\PlayerMovement.cpp">
+      <Filter>Player\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\View\PlayerView.cpp">
+      <Filter>Player\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\StdAfx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\GamePlugin.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Game\GameRules.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Bullet.h">
+      <Filter>Entities\Gameplay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\ISimpleWeapon.h">
+      <Filter>Entities\Gameplay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Rifle.h">
+      <Filter>Entities\Gameplay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\SpawnPoint.h">
+      <Filter>Entities\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Helpers\ISimpleExtension.h">
+      <Filter>Entities\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\ISimpleActor.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Animations\PlayerAnimations.h">
+      <Filter>Player\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Input\PlayerInput.h">
+      <Filter>Player\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Movement\PlayerMovement.h">
+      <Filter>Player\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\View\PlayerView.h">
+      <Filter>Player\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Cryengine Projects\Lofall\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entities\Gameplay\Weapons">
+      <UniqueIdentifier>{FE22A95A-DC08-3EDC-AD60-B9CEC347D4A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Animations">
+      <UniqueIdentifier>{22D7E9E7-F700-39A0-8DFD-434EB12AB361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Input">
+      <UniqueIdentifier>{AB6A6191-74BD-323E-AF1B-7E3C62BF8149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Movement">
+      <UniqueIdentifier>{8D22296A-A3B3-3FEF-9DF4-BD220EA1A4B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\View">
+      <UniqueIdentifier>{9E86AB8E-5A98-3FCA-91C1-8ECE8E4F56B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Gameplay">
+      <UniqueIdentifier>{3AE642F5-20D5-3B65-BB4F-2F303F95405B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Helpers">
+      <UniqueIdentifier>{C2B0E758-21D5-3C04-AD0E-B1284688C335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{65A22076-3AFC-3FE6-BCF7-8D0FC3E55149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6DC8BCEB-1C1D-358A-B5AF-0BF16EDEA28B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{7BF489DB-0203-3D50-9B67-614D04899327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{6EEB3CA0-ABD0-3331-88BC-CC00EA803BF3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
