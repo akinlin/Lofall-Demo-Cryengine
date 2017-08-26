@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -118,7 +118,8 @@
       <ImportLibrary>D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Debug/Game.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/Cryengine Projects/Lofall/bin/win_x64/Game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -138,7 +139,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";Game_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";Game_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -161,7 +163,8 @@
       <ImportLibrary>D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Release/Game.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/Cryengine Projects/Lofall/bin/win_x64/Game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -181,7 +184,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";Game_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";Game_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -204,7 +208,8 @@
       <ImportLibrary>D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/MinSizeRel/Game.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/Cryengine Projects/Lofall/bin/win_x64/Game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -247,7 +252,8 @@
       <ImportLibrary>D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/RelWithDebInfo/Game.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/Cryengine Projects/Lofall/bin/win_x64/Game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -310,7 +316,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\StdAfx.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -324,8 +330,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
+    <ClCompile Include="TimeManager.cpp" />
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\StdAfx.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\GamePlugin.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\GamePlugin.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -340,7 +347,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\GamePlugin.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Game\GameRules.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Game\GameRules.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -355,7 +362,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Game\GameRules.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Bullet.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Bullet.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -371,7 +378,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Bullet.h" />
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\ISimpleWeapon.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Rifle.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Rifle.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -386,7 +393,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\Weapons\Rifle.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\SpawnPoint.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\SpawnPoint.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -402,7 +409,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Gameplay\SpawnPoint.h" />
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Entities\Helpers\ISimpleExtension.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Player.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Player.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -418,7 +425,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Player.h" />
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\ISimpleActor.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Animations\PlayerAnimations.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Animations\PlayerAnimations.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -433,7 +440,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Animations\PlayerAnimations.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Input\PlayerInput.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Input\PlayerInput.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -448,7 +455,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Input\PlayerInput.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Movement\PlayerMovement.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\Movement\PlayerMovement.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -463,7 +470,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\Movement\PlayerMovement.h" />
-    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\View\PlayerView.cpp" >
+    <ClCompile Include="D:\Cryengine Projects\Lofall\Code\Player\View\PlayerView.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
@@ -478,6 +485,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Cryengine Projects/Lofall/Solutions/Game.win_x64/Game.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="D:\Cryengine Projects\Lofall\Code\Player\View\PlayerView.h" />
+    <ClInclude Include="TimeManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Cryengine Projects\Lofall\Solutions\Game.win_x64\ZERO_CHECK.vcxproj">
