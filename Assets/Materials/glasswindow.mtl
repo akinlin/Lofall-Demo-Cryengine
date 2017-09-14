@@ -1,0 +1,9 @@
+<Material MtlFlags="526336" Shader="Glass" GenMask="1010000010" StringGenMask="%BLUR_REFRACTION%SPECULAR_MAP%TINT_COLOR_MAP" SurfaceType="" MatTemplate="" Diffuse="0.5332765,0.5332765,0.5332765" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./glasswindow_tint.tif"/>
+  <Texture Map="Bumpmap" File="./glasswindow_ddna.tif"/>
+  <Texture Map="Specular" File="./glasswindow_spec.tif"/>
+  <Texture Map="Custom" File="./glasswindow_tint.tif"/>
+ </Textures>
+ <PublicParams BumpMapTile="0" TintColor="1,1,1" BlurAmount="0.47099999" TintCloudiness="0.083999999" BackLightScale="0.5" BumpScale="0.889"/>
+</Material>

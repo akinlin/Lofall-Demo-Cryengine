@@ -1,0 +1,8 @@
+<Material MtlFlags="524290" Shader="Illum" GenMask="30400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.78353792,0.78353792,0.78353792" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./black_plastic_diff.tif"/>
+  <Texture Map="Bumpmap" File="./black_plastic_ddna.tif"/>
+  <Texture Map="Specular" File="./black_plastic_spec.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

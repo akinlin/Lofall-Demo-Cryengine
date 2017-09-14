@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="needles" MtlFlags="524416" Shader="Vegetation" GenMask="2400C01000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.68668544,0.68668544,0.68668544" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="234" AlphaTest="0.47" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./mv_spruce_snow_diff.tif"/>
+    <Texture Map="Bumpmap" File="./mv_spruce_snow_ddna.tif"/>
+    <Texture Map="Opacity" File="./mv_spruce_snow_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.255" bendDetailFrequency="1" bendDetailBranchAmplitude="0" BlendTerrainCol="0.024" VertexAlphaBlendFactor="0" NormalViewDependency="0.94999999" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0.72500002" BackDiffuseMultiplier="0.354" BlendTerrainColDist="0.5"/>
+  </Material>
+  <Material Name="bark" MtlFlags="524416" Shader="Illum" GenMask="22400000" StringGenMask="%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.025186861,0.025186861,0.025186861" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./spruce_trunk_snow_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="./spruce_trunk_snow_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" SelfShadowStrength="0" ObmDisplacement="0.0137" HeightBias="0.80000001"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.5" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod4" MtlFlags="524418" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.025186861,0.025186861,0.025186861" Opacity="1" Shininess="255" AlphaTest="0.5" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./mv_spruce_snow_lod_diff.tif"/>
+    <Texture Map="Opacity" File="./mv_spruce_lod_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.255" bendDetailFrequency="1" bendDetailBranchAmplitude="0.49000001" BlendTerrainCol="0.024" VertexAlphaBlendFactor="1" NormalViewDependency="0.94999999" TransmittanceColor="1,1,0.59720188" CapOpacityFalloff="1" BackDiffuseMultiplier="0.354" BlendTerrainColDist="0.5"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

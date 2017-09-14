@@ -1,0 +1,9 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="38400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./sofa_diff.tif"/>
+  <Texture Map="Bumpmap" File="./sofa_ddna.tif"/>
+  <Texture Map="Specular" File="./sofa_spec.tif"/>
+  <Texture Map="Heightmap" File="./sofa_displ.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.0425" SSSIndex="0" SelfShadowStrength="3.6989999" HeightBias="1"/>
+</Material>

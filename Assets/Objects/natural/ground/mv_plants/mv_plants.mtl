@@ -1,0 +1,11 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="objects/natural/mv_plants/mv_plants" MtlFlags="524416" Shader="Vegetation" GenMask="2400200000" StringGenMask="%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="21" AlphaTest="0.38" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./mv_plants_diff.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.94999999" TransmittanceColor="0.65140575,0.72305524,0.95597351" BackDiffuseMultiplier="1" BlendTerrainColDist="0.2"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

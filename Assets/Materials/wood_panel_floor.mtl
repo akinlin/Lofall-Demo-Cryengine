@@ -1,0 +1,11 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="38400000" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.32777813,0.32777813,0.32777813" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./wood_pannel_floor_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="./wood_pannel_floor_ddna.tif"/>
+  <Texture Map="Specular" File="./wood_pannel_floor_spec.tif"/>
+  <Texture Map="Heightmap" File="./wood_pannel_floor_displ.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.026699999" SSSIndex="0" SelfShadowStrength="3" HeightBias="1"/>
+</Material>

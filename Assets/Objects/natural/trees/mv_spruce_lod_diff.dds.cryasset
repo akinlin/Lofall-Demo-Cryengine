@@ -1,0 +1,8 @@
+<cryasset>
+ <AssetMetadata version="0" type="Texture" guid="{F79A07BC-4A81-E95F-F8D5-3D1DC54C4AF6}" source="mv_spruce_lod_diff.tif">
+  <Files>
+   <File path="mv_spruce_lod_diff.dds"/>
+  </Files>
+  <Details />
+ </AssetMetadata>
+</cryasset>

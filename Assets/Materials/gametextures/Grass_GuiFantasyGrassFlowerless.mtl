@@ -1,0 +1,12 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="68400000" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="12" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="texture/Grass_GuiFantasyGrassFlowerless/Grass_GuiFantasyGrassFlowerless_2k_cry_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="texture/Grass_GuiFantasyGrassFlowerless/Grass_GuiFantasyGrassFlowerless_2k_cry_ddna.tif"/>
+  <Texture Map="Specular" File="texture/Grass_GuiFantasyGrassFlowerless/Grass_GuiFantasyGrassFlowerless_2k_cry_spec.tif"/>
+  <Texture Map="Heightmap" File="texture/Grass_GuiFantasyGrassFlowerless/Grass_GuiFantasyGrassFlowerless_2k_cry_displ.tif"/>
+  <Texture Map="Emittance" File="texture/Grass_GuiFantasyGrassFlowerless/Grass_GuiFantasyGrassFlowerless_2k_cry_emit.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.0087000001" SSSIndex="0" SelfShadowStrength="2.3329999" HeightBias="0.43099999" IndirectColor="0.25,0.25,0.25"/>
+</Material>
