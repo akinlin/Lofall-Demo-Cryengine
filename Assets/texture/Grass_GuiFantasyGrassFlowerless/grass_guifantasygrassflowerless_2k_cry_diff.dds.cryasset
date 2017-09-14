@@ -1,7 +1,7 @@
 <cryasset>
- <AssetMetadata version="0" type="Texture" guid="{FC1068F0-079B-44DC-5C71-4E185D05E098}" source="grass_guifantasygrassflowerless_2k_cry_diff.tif">
+ <AssetMetadata version="0" type="Texture" guid="{DDB720FA-E876-07F8-D342-AAF2D94D9AB0}" source="Grass_GuiFantasyGrassFlowerless_2k_cry_diff.tif">
   <Files>
-   <File path="grass_guifantasygrassflowerless_2k_cry_diff.dds"/>
+   <File path="Grass_GuiFantasyGrassFlowerless_2k_cry_diff.dds"/>
   </Files>
   <Details />
  </AssetMetadata>
