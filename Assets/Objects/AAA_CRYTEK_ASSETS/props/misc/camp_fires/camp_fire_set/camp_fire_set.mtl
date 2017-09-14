@@ -1,0 +1,103 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="9.999999" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20810000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="burned_stone" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0090214908,0.0090214908,0.0090214908" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_stone_a_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_stone_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_rocks_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.33000001" TileV="0.33000001" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/stone_dirt_a_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_stone_a_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/stone_dirt_a_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="8" BlendFalloff="1.5" BlendLayer2Specular="0" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1.2" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20810000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="burned_wood_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0069954107,0.0069954107,0.0069954107" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/palmtrunk_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/wood_dirt_a_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_a_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/wood_dirt_a_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="2" BlendFalloff="2.5" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="0.5" DetailDiffuseScale="0.5" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="burned_wood_stump_end_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0047769537,0.0047769537,0.0047769537" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_stump_end_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_stump_end_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/wood_dirt_a_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_wood_stump_end_a_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/wood_dirt_a_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="4.2800002" BlendFalloff="1.8" BlendLayer2Specular="0.050000001" BlendLayer2Tiling="1" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2089000001" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="burned_ash_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0047769537,0.0047769537,0.0047769537" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_ash_tile_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_ash_tile_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_ash_tile_displ.tif" Map="Heightmap" />
+   </Textures>
+   <PublicParams HeightBias="0.5" IndirectColor="0.25,0.25,0.25" PomDisplacement="0.050000001" SSSIndex="0" SelfShadowStrength="3" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000001" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="burned_ash_nopom" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0047769537,0.0047769537,0.0047769537" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_ash_tile_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/burned_ash_tile_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_a_lod1" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod1_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod1_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_a_lod2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod2_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod2_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_b_lod1" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod1_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod1_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_b_lod2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod2_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod2_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_c_lod1" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod1_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod1_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="camp_fire_c_lod2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.035,0.035,0.035" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock_dusty" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod2_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod2_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

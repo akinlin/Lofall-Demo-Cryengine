@@ -1,0 +1,17 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="Proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_plastic">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000101" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="PresentShader" Opacity="1" Shader="Illum" Shininess="128" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/present/textures/present_var3_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/present/textures/plastic_detail.tif" Map="Detail">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.050000001" DetailDiffuseScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

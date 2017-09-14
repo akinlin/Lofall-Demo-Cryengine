@@ -1,0 +1,8 @@
+<Material CloakAmount="0" Diffuse="0.64447981,0.64447981,0.64447981" Emissive="0,0,0" GenMask="81000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="128" Specular="0.03189604,0.03189604,0.03189604" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_soil" vertModifType="0">
+ <Textures>
+  <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/terrain/sand/textures/sand_a_diff.tif" Map="Diffuse" />
+  <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/terrain/sand/textures/sand_a_ddna.tif" Map="Bumpmap" />
+  <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/terrain/sand/textures/sand_a_displ.tif" Map="Heightmap" />
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

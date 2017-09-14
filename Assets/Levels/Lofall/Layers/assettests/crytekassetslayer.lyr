@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="CrytekAssetsLayer" FullName="AssetTests/CrytekAssetsLayer" GUID="{308919E0-3AF0-6230-95EE-8D8769048CC6}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{806863FD-3960-82EE-9F9B-630C321810E3}">
+ <Layer Name="CrytekAssetsLayer" FullName="AssetTests/CrytekAssetsLayer" GUID="{308919E0-3AF0-6230-95EE-8D8769048CC6}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{6B4EE4F6-B154-14D8-0176-EE17C4937519}">
   <LayerObjects>
    <Object Type="Brush" Layer="CrytekAssetsLayer" LayerGUID="{308919E0-3AF0-6230-95EE-8D8769048CC6}" Id="{0843D00E-3B3F-98CA-5DFC-ED3A18E8760A}" Name="fence_wood_cross_post2" Pos="682.7522,727.2879,21.01235" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/architecture/fences/fence_wood_cross/fence_wood_cross_post.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
     <CollisionFiltering />

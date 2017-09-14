@@ -1,0 +1,51 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="0.57112497,0.57112497,0.57112497" Emissive="0,0,0" GenMask="2104000121" HeatAmountScaled="6" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood_breakable" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_trunk_diff.tif" Filter="5" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_trunk_ddna.tif" Filter="4" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/wood_bark_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="16" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_moss_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_moss_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="4.1599998" BlendFalloff="0.89999998" BlendLayer2Specular="0.029999999" BlendLayer2Tiling="2" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="0.40000001" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood_breakable" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material AlphaTest="0.5" Diffuse="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" GenMask="2404800100" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaves" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%DETAIL_MAPPING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_canopy" vertModifType="2">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_leaf_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_leaf_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_leaf_sss.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/plants_leaf_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12" />
+    </Texture>
+   </Textures>
+   <VertexDeform DividerX="0" DividerY="0" NoiseScale="1,1,1" Type="2">
+    <WaveX Amp="0.050000001" Freq="1" Level="0" Phase="0" Type="1" />
+   </VertexDeform>
+   <PublicParams BackDiffuseMultiplier="0.44999999" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="1" DetailBumpScale="0.40000001" DetailDiffuseScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="1" bendDetailLeafAmplitude="0.2" />
+  </Material>
+  <Material Diffuse="0.39157251,0.33245155,0.29177067" Emissive="0,0,0" GenMask="2104000121" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rotten" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_trunk_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_trunk_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/wood_bark_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="16" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_rotten_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_trunk_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/dead_tree/textures/dead_tree_moss_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="4.0599999" BlendFalloff="1.7" BlendLayer2Specular="0.039999999" BlendLayer2Tiling="2" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="0.40000001" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525442" Name="splinter" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

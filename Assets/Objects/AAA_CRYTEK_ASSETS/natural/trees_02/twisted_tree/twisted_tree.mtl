@@ -1,0 +1,32 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2400000080" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%BUMP_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/trunk_pino_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/trunk_pino_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.2" bendDetailFrequency="5" bendDetailLeafAmplitude="0.079999998" />
+  </Material>
+  <Material AlphaTest="0.5" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2400801000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="branches" Opacity="1" Shader="Vegetation" Shininess="10" Specular="0.0069954107,0.0069954107,0.0069954107" StringGenMask="%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/branches.tif" Map="Diffuse" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.25" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="1" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.2" bendDetailFrequency="0.2" bendDetailLeafAmplitude="0.079999998" />
+  </Material>
+  <Material AlphaTest="0.40000001" Diffuse="0.28744087,0.19461785,0.1559265" Emissive="0,0,0" GenMask="2400801080" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaves" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/leaves_a_diff.tif" Filter="7" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/leaves_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/twisted_tree/textures/leaves_a_opac.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.5" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="1" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.2" bendDetailFrequency="0.2" bendDetailLeafAmplitude="0.079999998" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="obstruct" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_canopy">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,1,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="AI_proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

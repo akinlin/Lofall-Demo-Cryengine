@@ -1,0 +1,130 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="main" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_main_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_main_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="dashboard" Opacity="1" Shader="Illum" Shininess="255" Specular="0.042311415,0.042311415,0.042311415" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_dashboard_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_dashboard_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="bed" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/speedboat_floor.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/speedboat_floor_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="canvas" Opacity="1" Shader="Illum" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_canvas_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_canvas_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/fabric_b_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.25" DetailDiffuseScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="canvas_end" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_canvas_end_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_canvas_end_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="nodraw" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="beams" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_beams_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_beams_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/metal_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="frame" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_frame_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_frame_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="91000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="tubes" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PN_TESSELLATION%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_tubes_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_tubes_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" TessellationFaceCull="0.75" TessellationFactor="2" TessellationFactorMax="32" TessellationFactorMin="1" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="backwall" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_backwall_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_backwall_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/metal_006_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.25" DetailDiffuseScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="dashboard_tile" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_dbtile_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_dbtile_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="cabintile" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665087,0.046665087,0.046665087" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_cabintile_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_cabintile_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="rope" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="C1000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wheels" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_wheels_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_wheels_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_wheels_spec.tif" Map="Specular" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.5" Diffuse="0,0,0" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="526466" Name="windshield" Opacity="1" Shader="Glass" Shininess="200" Specular="0.042311415,0.042311415,0.042311415" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" vertModifType="0">
+   <Textures />
+   <PublicParams BackLightScale="0.045000002" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.0099999998" TintColor="0.49693301,0.49693301,0.49693301" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="tanks" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_tanks_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_tanks_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000003" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="mainB" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_main_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/chenyan/textures/chenyan_main_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams AmbientMultiplier="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxies" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

@@ -1,0 +1,22 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.5" Diffuse="0.57112485,0.57112485,0.57112485" Emissive="0,0,0" GenMask="2400801180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaves" Opacity="1" Shader="Vegetation" Shininess="135" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_canopy">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/thin_leaves_plants/textures/leaves_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/thin_leaves_plants/textures/leaves_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/thin_leaves_plants/textures/plants_leaf_detail.tif" Map="Detail">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/thin_leaves_plants/textures/leaves_a_opac.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.5" BackViewDep="0.80000001" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="1" DetailBumpScale="0.5" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.029999999" bendDetailFrequency="0.80000001" bendDetailLeafAmplitude="0.02" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_bending" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_canopy">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,1,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_ai" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_canopy">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25" />
+</Material>

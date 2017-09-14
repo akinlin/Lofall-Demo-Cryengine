@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="cliff_rock_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.014443845,0.014443845,0.014443845" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/cliff_rock_a_diff.tif" Map="Diffuse">
+     <TexMod TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/cliff_rock_a_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="__free" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Illum" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/trunk_pino_diff.tif" Map="Diffuse">
+     <TexMod TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/trunk_pino_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.5" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="lianas" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_canopy">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/roots_on_cliff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/cliff_rocks/textures/roots_on_cliff_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_player_rock" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_bullet_ship" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

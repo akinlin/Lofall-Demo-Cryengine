@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.0099999998" Diffuse="1,1,1" Emissive="0,0,0" GenMask="80" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="cloth" Opacity="1" Shader="Illum" Shininess="55" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP" SurfaceType="mat_fabric" vertModifType="1">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/cloth/textures/hanging_cloth_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/cloth/textures/hanging_cloth_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <VertexDeform DividerW="1" DividerX="0.1" DividerY="0" DividerZ="0" NoiseScale="1,1,1" Type="1">
+    <WaveX Amp="0.0099999998" Freq="0.5" Level="0.0099999998" Phase="1" Type="1" />
+    <WaveZ Amp="0.1" Freq="0.1" Level="0.1" Phase="0.1" Type="1" />
+   </VertexDeform>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+  </Material>
+  <Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="nodraw" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

@@ -1,0 +1,31 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="0.05284163,0.063814871,0.071761452" Emissive="0.29321617,0.29321617,0.29321617" GenMask="2000080201" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="Waterfall_layer1" Opacity="0.2" Shader="Illum" Shininess="200" Specular="0.054592282,0.054592282,0.054592282" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_water" vertModifType="1">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_a.tif" Map="Diffuse">
+     <TexMod TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorRate="0.44999999" TexMod_UOscillatorType="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_a.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_var3_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <VertexDeform DividerW="1" DividerX="1" DividerY="1" DividerZ="1" NoiseScale="1,1,1" Type="1">
+    <WaveX Amp="0.1" Freq="1" Level="0" Phase="0" Type="2" />
+   </VertexDeform>
+   <PublicParams FresnelBias="1" FresnelScale="12.17" GlossMapChannelB="0" IndirectColor="0.25,0.25,0.25" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0" />
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.098689198,0.098689198,0.098689198" Emissive="0.29321617,0.29321617,0.29321617" GenMask="2000080201" GlowAmount="2" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="Waterfall_layer2" Opacity="0.99000001" Shader="Illum" Shininess="200" Specular="0.14497213,0.14497213,0.14497213" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_water" vertModifType="1">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_a.tif" Map="Diffuse">
+     <TexMod TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorPhase="2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorType="2" TileU="0.5" TileV="0.5" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_a.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/waterfall/textures/river_foam_var3_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <VertexDeform DividerW="1" DividerX="1" DividerY="1" DividerZ="1" NoiseScale="1,1,1" Type="1">
+    <WaveX Amp="0.1" Freq="1" Level="0" Phase="0" Type="2" />
+   </VertexDeform>
+   <PublicParams FresnelBias="1" FresnelScale="1" GlossMapChannelB="0" IndirectColor="0.25,0.25,0.25" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25" />
+</Material>

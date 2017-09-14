@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2089000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="dirty_plaster_wall" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/thin_brick_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/thin_brick_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/thin_brick_displ.tif" Map="Heightmap" />
+   </Textures>
+   <PublicParams HeightBias="0.5" IndirectColor="0.25,0.25,0.25" PomDisplacement="0.0049999999" SSSIndex="0" SelfShadowStrength="1" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="concrete_details" Opacity="1" Shader="Illum" Shininess="130" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/concrete_curbs_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/concrete_curbs_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/detail_concrete_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.5" DetailDiffuseScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="metal_stribes" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/metal_stribes_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/metal_stribes_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/metal_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.1" DetailDiffuseScale="0.25" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="door" Opacity="1" Shader="Illum" Shininess="180" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/metal_door_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/metal_door_a_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="100040000010" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="glass" Opacity="1" Shader="Glass" Shininess="240" Specular="0,0,0" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/guardhouse/textures/glass_dirty_tint.tif" Map="Specular" />
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="2" CloudinessReducesGloss="0.5" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.5" TintColor="1,1,1" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525472" Name="_spare1" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="physic_concrete" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="physic_metal" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

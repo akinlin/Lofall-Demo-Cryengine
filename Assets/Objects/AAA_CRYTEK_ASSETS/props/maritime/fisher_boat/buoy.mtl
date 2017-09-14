@@ -1,0 +1,22 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" GenMask="80" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="buoy" Opacity="1" Shader="Illum" Shininess="207" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%BUMP_MAP" SurfaceType="mat_rubber">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/buoy.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/buoy_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+  </Material>
+  <Material Diffuse="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" GenMask="80" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rope" Opacity="1" Shader="Illum" Shininess="45" Specular="0.49950528,0.49950528,0.49950528" StringGenMask="%BUMP_MAP" SurfaceType="mat_fabric">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rubber">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

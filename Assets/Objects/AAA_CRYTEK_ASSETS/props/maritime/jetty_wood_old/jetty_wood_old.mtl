@@ -1,0 +1,45 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_planks" Opacity="1" Shader="Illum" Shininess="255" Specular="0.037028514,0.037028514,0.037028514" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_planks_a_lighter_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_planks_flat_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_planks_flat_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="0.5" BlendLayer2Specular="0.0020000001" BlendLayer2Tiling="6" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="20C1000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="nails" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/nails_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/nails_spec.tif" Map="Specular" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rope" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339812,0.034339812,0.034339812" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_fabric" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/rope_set_shipwreck_b_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/rope_set_shipwreck_b_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/rope_set_shipwreck_b_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="3" BlendFalloff="0.5" BlendLayer2Specular="0.0024999999" BlendLayer2Tiling="1" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_beam_supports" Opacity="1" Shader="Illum" Shininess="255" Specular="0.037028514,0.037028514,0.037028514" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_bleached_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_bleached_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/wood_bleached_a_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/jetty_wood_old/textures/seaweed_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="0.5" BlendLayer2Specular="0" BlendLayer2Tiling="3" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

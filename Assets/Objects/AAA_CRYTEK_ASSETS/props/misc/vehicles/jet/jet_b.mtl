@@ -1,0 +1,43 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="0.30498734,0.30498734,0.30498734" Emissive="0,0,0" GenMask="2080000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Hull" Opacity="1" Shader="Illum" Shininess="180" Specular="0.042311411,0.042311411,0.042311411" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/jet_exterior_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/metal_scratches_a_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.050000001" DetailDiffuseScale="0.25" DetailGlossScale="0.15000001" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0.49102089,0.49102089,0.49102089" Emissive="0,0,0" GenMask="2081000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="DDN" Opacity="1" Shader="Illum" Shininess="80" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/jet_interior_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/jet_interior_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="Glass" Opacity="1" Shader="Glass" Shininess="250" Specular="0.1169707,0.1169707,0.1169707" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" vertModifType="0">
+   <Textures />
+   <PublicParams BackLightScale="0.1" BumpMapTile="1" BumpScale="2" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.0099999998" TintColor="0.21951973,0.21951973,0.21951973" />
+  </Material>
+  <Material Diffuse="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" GenMask="80000001" GlowAmount="5" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Glow" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/jet_interior_diff.tif" Map="Diffuse" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0.024222942,0.17677432,0.36859095" Emissive="0,0,0" GenMask="2080000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Paint" Opacity="1" Shader="Illum" Shininess="120" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/jet_exterior_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/jet/textures/metal_scratches_a_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.1" DetailDiffuseScale="0.75" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="NoDraw" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

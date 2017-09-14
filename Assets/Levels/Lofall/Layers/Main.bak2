@@ -1,41 +1,12 @@
 <ObjectLayer>
  <Layer Name="Main" FullName="Main" GUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
   <LayerObjects>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{284CD5BC-E19B-05B0-D80E-34B7E847BAED}" Name="twisted_tree_a1" Pos="644.95435,735.53497,12.817255" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/twisted_tree/twisted_tree_a.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{28F268E8-C7E2-EF06-9E2F-07F2F32EA45D}" Name="river_tree_d1" Pos="658.065,762.66772,10.947695" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/river_tree/river_tree_d.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{3B9E5F2C-A3C9-2FB8-276B-2B3068756F82}" Name="e_spruce_group_a1" Pos="655.71204,721.96631,20.568678" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/e_spruce_group_a.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{4593D643-10A6-5501-4951-53532A8539E1}" Name="e_spruce_group_b1" Pos="651.2464,728.25397,17.255985" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/e_spruce_group_b.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{52786286-2F6C-5D74-F920-05DBD7363798}" Name="river_tree_b1" Pos="671.703,775.04901,10.99082" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/river_tree/river_tree_b.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{5396C4A9-C456-EAAF-4F76-685DEC1FB547}" Name="a_spruce_d_stump1" Pos="660.3725,740.28186,17.866034" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/a_spruce_d_stump.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{5F19862A-7EB9-DFEE-585D-EBE99BF748F2}" Name="thin_leave_tree_big_bright_green_con1" Pos="653.19714,720.99097,20.042776" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/thin_leave_tree/thin_leave_tree_big_bright_green_con.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{80326212-2CFB-F6F2-DFEB-2D7638873696}" Name="twisted_tree_b1" Pos="647.83362,728.03766,15.366732" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/twisted_tree/twisted_tree_b.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{8E3D8F71-04D4-4302-A861-E86755703426}" Name="river_tree_a1" Pos="684.92926,775.2735,11.937908" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/river_tree/river_tree_a.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{A66A483B-5DE6-309E-F412-FB89F4E8BA58}" Name="a_spruce_e_dead1" Pos="653.05237,740.95099,16.12365" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/a_spruce_e_dead.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{A7438646-B036-F843-44BB-F97165D0C96F}" Name="c_spruce_a1" Pos="649.1366,734.00806,14.249811" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/c_spruce_a.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{CE270975-7627-39BD-CC6E-445FC225E492}" Name="b_spruce_a1" Pos="658.89648,729.06433,18.83214" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/aaa_crytek_assets/natural/trees_02/rocky_ravine/b_spruce_a.cgf" OutdoorOnly="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
+   <Object Type="Entity" Layer="Main" LayerGUID="{34457734-86AA-56CA-5EA5-186095A333DC}" Id="{DB437AF8-D7D0-8CFF-5BD3-4C04E4DA5A0E}" Name="SpawnPoint1" Pos="675.42603,741.67865,19.087023" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{EC4E2FDC-DCFF-4AB3-A691-B9CC4ECE5788}"/>
+     <Component typeId="{10000000-1000-1000-1000-100000000000}"/>
+    </Components>
    </Object>
   </LayerObjects>
  </Layer>

@@ -1,0 +1,12 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="ice" MtlFlags="524422" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.017641956,0.017641956,0.017641956" Opacity="1" Shininess="127" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/AAA_CRYTEK_ASSETS/Natural/water/icicle/textures/icicles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/AAA_CRYTEK_ASSETS/natural/water/icicle/textures/icicles_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

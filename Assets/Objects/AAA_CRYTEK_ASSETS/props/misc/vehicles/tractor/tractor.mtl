@@ -1,0 +1,63 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="C0000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="big_wheels" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/big_wheels_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/big_wheels_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/big_wheels_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="engine" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/engine_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/engine_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="C0000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="hull" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/hull_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/hull_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/hull_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="misc" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/misc_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/misc_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="mudguard" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/mud_guard_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/mud_guard_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="C0000185" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="roof" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%BUMP_MAP%DETAIL_MAPPING%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/roof_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/roof_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/roof_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/fabric_b_detail.tif" Map="Detail">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.75" DetailDiffuseScale="0.75" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="small_wheels" Opacity="1" Shader="Illum" Shininess="255" Specular="0.031896032,0.031896032,0.031896032" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/small_wheels_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/tractor/textures/small_wheels_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

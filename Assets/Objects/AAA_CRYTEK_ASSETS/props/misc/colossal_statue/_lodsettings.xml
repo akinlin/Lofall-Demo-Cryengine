@@ -1,0 +1,9 @@
+<GlobalLodSettings>
+ <GeometryLodSettings nSourceLod="0" bObjectHasBase="0" fViewResolution="7.88819" nViewsAround="12" nViewElevations="3" fSilhouetteWeight="5" fVertexWelding="0.001" bCheckTopology="1" bWireframe="1" bExportObj="0" bSourceLod="0"/>
+ <MaterialLodSettings RayTestLength="0.5" RayStartDist="0.25" BakeAlpha="0" BakeUniqueSpecularMap="1" SmoothCage="0" DilationPass="1" BackgroundColour="0" ExportPath="objects/props/misc/colossal_statue/" FilenameTemplate="colossus_lod[LodId]_[AlphaBake][BakedTextureType].tif" DiffuseTexturePreset="Diffuse_highQ /reduce=1" NormalTexturePreset="Normalmap_lowQ /reduce=1" SpecularTexturePreset="Diffuse_highQ /reduce=1">
+  <IndividualLodSettings nLodId="1" nWidth="512" nHeight="512" bEnabled="1"/>
+  <IndividualLodSettings nLodId="2" nWidth="256" nHeight="256" bEnabled="1"/>
+  <IndividualLodSettings nLodId="3" nWidth="128" nHeight="128" bEnabled="1"/>
+  <IndividualLodSettings nLodId="4" nWidth="64" nHeight="64" bEnabled="1"/>
+ </MaterialLodSettings>
+</GlobalLodSettings>

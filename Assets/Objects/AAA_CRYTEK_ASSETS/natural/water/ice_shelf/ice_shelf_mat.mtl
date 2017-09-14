@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.5" Diffuse="1,1,1" Emissive="0.10702311,0.44520122,0.42869052" GenMask="10040018450" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="ice" Opacity="1" Shader="Glass" Shininess="160" Specular="0.1169707,0.1169707,0.1169707" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DEPTH_FOG%DIRT_MAP%ENVIRONMENT_MAP%SPEC_MAP%TINT_MAP" SurfaceType="mat_ice">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/ice_shelf_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/ice_shelf_tint.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/ice_shelf_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/generic_cubemap_day_cm.tif" Map="Environment" />
+   </Textures>
+   <PublicParams BackLightScale="0.75" BlurAmount="0.5" BumpMapTile="1" BumpScale="0.5" CloudinessMasksBlur="0.5" CloudinessReducesGloss="0.5" FogColor="0.53947961,0.96468639,0.94730669" FogCutoffEnd="20" FogDensity="10" FresnelBias="0.75" FresnelScale="1" TintCloudiness="1" TintColor="0.36625263,0.73046088,0.73046088" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000080" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="inner_ice" Opacity="1" Shader="Illum" Shininess="255" Specular="0.080219828,0.1620294,0.1620294" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_ice">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/inner_ice_shelf_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="1" TexMod_WRotateAmplitude="3.9990234" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/water/ice_shelf/textures/inner_ice_shelf_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_ice">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

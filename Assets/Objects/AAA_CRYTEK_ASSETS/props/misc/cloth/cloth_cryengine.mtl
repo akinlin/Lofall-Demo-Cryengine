@@ -1,0 +1,14 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000081" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="cloth_logo" Opacity="1" Shader="Illum" Shininess="60" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/cloth/textures/grey.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/cloth/textures/fabric_b_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.050000001" DetailDiffuseScale="0.1" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

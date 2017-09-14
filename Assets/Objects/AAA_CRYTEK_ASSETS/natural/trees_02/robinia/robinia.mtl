@@ -1,0 +1,70 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/pine_trunk_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/pine_trunk_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_b_lean_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="3" BlendFalloff="1.5" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.5" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2401801000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaves" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/robinia_leaf_diff.tif" Filter="5" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/robinia_leaf_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/robinia_leaf_sss.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.40000001" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="0" IndirectColor="0.25,0.25,0.25" TransmittanceColor="0.94730651,0.92158186,0.62396044" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="0.5" bendDetailLeafAmplitude="0.5" />
+  </Material>
+  <Material AlphaTest="0.30000001" Diffuse="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525472" Name="trunk_leaves" Opacity="1" Shader="Nodraw" Shininess="120" Specular="0.04145189,0.04145189,0.04145189" StringGenMask="" SurfaceType="mat_vegetation" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="physics_proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,1,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="obstruct_proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_obstruct" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="bending_proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="0.64447969,0.64447969,0.64447969" Emissive="0,0,0" GenMask="810000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk_lean_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/pine_trunk_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="7" TileV="7" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_b_lean_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="6" BlendFalloff="2" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="2" DetailDiffuseScale="1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0.64447981,0.64447981,0.64447981" Emissive="0,0,0" GenMask="810000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk_a_med" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="7" TileV="7" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_a_med_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/moss_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/robinia/textures/trunk_rotten_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="16" BlendFalloff="1" BlendLayer2Specular="0.02" BlendLayer2Tiling="2" BlendMaskTiling="1" DetailBumpScale="2" DetailDiffuseScale="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

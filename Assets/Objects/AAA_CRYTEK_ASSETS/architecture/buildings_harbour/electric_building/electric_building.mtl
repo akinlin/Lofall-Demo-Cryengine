@@ -1,0 +1,50 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2089000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="dirty_plaster_wall" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/thin_brick_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/thin_brick_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/thin_brick_displ.tif" Map="Heightmap" />
+   </Textures>
+   <PublicParams HeightBias="0.5" IndirectColor="0.25,0.25,0.25" PomDisplacement="0.015" SSSIndex="0" SelfShadowStrength="3" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="concrete_details" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/concrete_curbs_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/concrete_curbs_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/detail_concrete_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.5" DetailDiffuseScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20C1000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="metal_stribes" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/metal_stribes_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/metal_stribes_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/metal_stribes_a_spec.tif" Map="Specular" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="door" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034339808,0.034339808,0.034339808" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/metal_door_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/metal_door_a_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="roof_tiles" Opacity="1" Shader="Illum" Shininess="255" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/roof_paper_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_harbour/electric_building/textures/roof_paper_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

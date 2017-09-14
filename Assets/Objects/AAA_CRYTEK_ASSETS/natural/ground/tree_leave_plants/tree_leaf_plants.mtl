@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.5" Diffuse="0.61720657,0.61720657,0.61720657" Emissive="0,0,0" GenMask="2400801180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="round_leaf" Opacity="1" Shader="Vegetation" Shininess="88" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/tree_leave_plants/textures/leaves_a_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/tree_leave_plants/textures/leaves_a_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/tree_leave_plants/textures/plants_leaf_detail.tif" Map="Detail">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.25" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="1" DetailBumpScale="0.5" DetailDiffuseScale="0.75" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0" bendDetailFrequency="0.1" bendDetailLeafAmplitude="0.029999999" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="long_leaf" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_vegetation">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

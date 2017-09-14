@@ -1,0 +1,20 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="800000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="stone" Opacity="1" Shader="Illum" Shininess="255" Specular="0.047775757,0.047775757,0.047775757" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/jointed_breakable/textures/concrete_broken_diff.tif" Map="Diffuse">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/jointed_breakable/textures/concrete_broken_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/jointed_breakable/textures/concrete_blend.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/jointed_breakable/textures/ceiling_concrete01_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/jointed_breakable/textures/ceiling_concrete01_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="8" BlendFalloff="32" BlendLayer2Specular="0.02" BlendLayer2Tiling="0.25" BlendMaskTiling="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_concrete">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

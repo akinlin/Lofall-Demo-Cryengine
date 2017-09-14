@@ -1,0 +1,18 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="riverrocks" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/river_rocks/textures/riverrocks_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/river_rocks/textures/riverrocks_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/river_rocks/textures/stone_dmap.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.5" DetailDiffuseScale="0.75" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

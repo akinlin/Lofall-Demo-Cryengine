@@ -1,0 +1,180 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rock" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_1_detail.tif" Map="Detail">
+     <TexMod TileU="0.125" TileV="0.125" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="0.25" BlendFalloff="2" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="0.25" DetailBumpScale="0.5" DetailDiffuseScale="0.25" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="_spare1" Shader="Nodraw" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="_spare2" Shader="Nodraw" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="deco_rock_forest_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.017641956,0.017641956,0.017641956" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/med_a_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_forest_wall_dark_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_forest_wall_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="3.5" BlendFalloff="1.5" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="cliff_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/med_b_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="3" BlendFalloff="3" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="cliff_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/med_c_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="2" BlendFalloff="1.5" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="0.5" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="deco_rock_forest_river_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="4" TileV="4" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/river_d6_detail.tif" Map="Detail">
+     <TexMod TileU="0.25" TileV="0.25" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="7.0300002" BlendFalloff="0.5" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="deco_rock_forest_river_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/river_e7_detail.tif" Map="Detail">
+     <TexMod TileU="0.125" TileV="0.125" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="10" BlendFalloff="1.5" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1.5" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="deco_rock_forest_wall_a" Opacity="1" Shader="Illum" Shininess="255" Specular="0.038204372,0.038204372,0.038204372" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/med_f_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="1.5" BlendLayer2Specular="0.025" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="deco_rock_forest_wall_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/med_g_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="2" BlendLayer2Specular="0.039999999" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="mountain" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/water_raindrop_displ.tif" Map="Heightmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/larg_a_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="3.22" BlendFalloff="3" BlendLayer2Specular="0.039999999" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1.21" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="mountain_b" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/larg_b_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="2" BlendLayer2Specular="0.02" BlendLayer2Tiling="2" BlendMaskTiling="1" DetailBumpScale="1.5" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800001A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="ground" Opacity="1" Shader="Illum" Shininess="255" Specular="0.038204372,0.038204372,0.038204372" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/small_detail.tif" Map="Detail">
+     <TexMod TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/rock_a_mask.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/forest_rocks/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="4" BlendFalloff="10" BlendLayer2Specular="0.025" BlendLayer2Tiling="0.69999999" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

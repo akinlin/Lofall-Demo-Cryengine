@@ -1,0 +1,32 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2400000080" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/trunk_pino_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/trunk_pino_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="1" bendDetailLeafAmplitude="0.2" />
+  </Material>
+  <Material AlphaTest="0.38" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2400801180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaves" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/leaves_branches_new_diff.tif" Filter="7" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/leaves_branches_new_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/plants_leaf_detail.tif" Map="Detail">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/thin_leave_tree/textures/leaves_branches_new_opac.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.30000001" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="0" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0" bendDetailFrequency="0.15000001" bendDetailLeafAmplitude="0.2" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="obstruct_bending" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_canopy">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="obstruct_AI" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_canopy">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_trunk" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

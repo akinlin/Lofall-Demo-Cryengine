@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="9.999999" Specular="0,0,0" StringGenMask="" SurfaceType="mat_grass" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="br_hay_bale_set_a_mesh" Opacity="1" Shader="Illum" Shininess="255" Specular="0.033104766,0.033104766,0.033104766" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/hay_bale_set_b_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/hay_bale_set_b_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.44999999" Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="br_hay_bale_set_a_alpha" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034230206,0.034230206,0.034230206" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/hay_bale_set_b_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/hay_bale_set_b_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="planks" Opacity="1" Shader="Illum" Shininess="255" Specular="0.031896032,0.031896032,0.031896032" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/wood_planks_flat_tiled_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/wood_planks_flat_tiled_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/trunk_dead_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/trunk_dead_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/haybales/hay_bale_set/textures/trunk_dead_diff.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="16" BlendFalloff="0.30000001" BlendLayer2Specular="0.02" BlendLayer2Tiling="4" BlendMaskTiling="3" IndirectColor="0.24620135,0.24620135,0.24620135" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

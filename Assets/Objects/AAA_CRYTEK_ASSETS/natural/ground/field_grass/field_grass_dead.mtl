@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.2" CloakAmount="0" Diffuse="0.33922336,0.26735809,0.17343903" Emissive="0,0,0" GenMask="2404800180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="main" Opacity="1" Shader="Vegetation" Shininess="86" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%LEAVES%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/field_grass/textures/grass_dif.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/field_grass/textures/grass_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/ground/field_grass/textures/plants_leaf_detail.tif" Map="Detail">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="4" BackViewDep="1" BlendMaskTiling="1" BlendTerrainCol="0.40000001" BlendTerrainColDist="0.505" CapOpacityFalloff="1" DetailBumpScale="0.5" DetailDiffuseScale="0" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.75" bendDetailFrequency="1" bendDetailLeafAmplitude="0.2" />
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="" SurfaceType="">
+   <Textures />
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

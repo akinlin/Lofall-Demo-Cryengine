@@ -1,0 +1,48 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.40000001" Diffuse="0.57758057,0.57758057,0.57758057" Emissive="0,0,0" GenMask="2400801080" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaf" Opacity="1" Shader="Vegetation" Shininess="120" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_leaf_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_leaf_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_leaf_sss.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.5" BackViewDep="0.045000002" BlendMaskTiling="1" BlendTerrainCol="0.5" BlendTerrainColDist="0.5" CapOpacityFalloff="1" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0.2" bendDetailFrequency="0.5" bendDetailLeafAmplitude="0.2" />
+  </Material>
+  <Material Diffuse="0.71569365,0.71569365,0.71569365" Emissive="0,0,0" GenMask="2410000180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Vegetation" Shininess="20" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%PN_TESSELLATION%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_breakable">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/beech_trunk_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/beech_trunk_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/wood_fine_detail_horizontal.tif" Map="Detail">
+     <TexMod TileU="4" TileV="2" />
+    </Texture>
+   </Textures>
+   <PublicParams BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" DetailBumpScale="0.5" DetailDiffuseScale="0.75" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="0" bendDetailFrequency="0" bendDetailLeafAmplitude="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_AI" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_nodraw">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,0,1" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_phys" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_nodraw">
+   <Textures />
+  </Material>
+  <Material Diffuse="0.57758057,0.57758057,0.57758057" Emissive="0,0,0" GenMask="80040181" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk_dead" Opacity="1" Shader="Illum" Shininess="20" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_trunk_dead_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_trunk_dead_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_trunk_dead_displ.tif" Map="Heightmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/wood_fine_detail_horizontal.tif" Map="Detail">
+     <TexMod TileU="4" TileV="2" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.75" DetailDiffuseScale="1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" TessellationDispBias="0.5" TessellationFaceCull="0.75" TessellationFactor="2" TessellationFactorMax="32" TessellationFactorMin="1" TessellationHeightScale="0.40000001" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_bend" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_nodraw">
+   <Textures />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525472" Name="xshape" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_02/rocky_ravine/textures/spruce_xtree_diff.tif" Map="Diffuse" />
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

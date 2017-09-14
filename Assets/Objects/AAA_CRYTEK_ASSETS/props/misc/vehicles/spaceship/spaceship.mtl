@@ -1,0 +1,41 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="40080081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="main" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PN_TESSELLATION" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/car_paint_diff.tif" Map="Diffuse">
+     <TexMod TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/car_paint_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/gloss80_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0,0.0056053922,0.07618539" SubsurfaceScatteringAmount="0.2" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="40080081" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="second" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PN_TESSELLATION" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/conductor_diff.tif" Map="Diffuse">
+     <TexMod TileU="3" TileV="3" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/silver_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/gloss70_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="40000001" GlowAmount="61" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="glow" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%PN_TESSELLATION" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/vehicles/spaceship/textures/porcelain_diff.tif" Map="Diffuse">
+     <TexMod TileU="3" TileV="3" />
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.086500466,0.086500466,0.086500466" SubsurfaceScatteringAmount="0" TessellationFaceCull="0.99199998" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="2623620" Name="glass" Opacity="1" Shader="Glass" Shininess="177" Specular="1,1,1" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass">
+   <Textures>
+   </Textures>
+   <PublicParams BackLightScale="0.57599998" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.45500001" TintColor="0.010960095,0.015996294,0.030713445" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

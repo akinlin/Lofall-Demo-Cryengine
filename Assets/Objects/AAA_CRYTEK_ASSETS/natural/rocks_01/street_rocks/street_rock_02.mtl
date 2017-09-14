@@ -1,0 +1,47 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2104000121" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="street_rock_02" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_soil.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_soil_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_01_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1" TileV="0.1" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/rock_base_tile_01.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/rock_base_tile_01_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/rock_base_tile_01_mask.tif" Map="Opacity">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1" TileV="0.1" />
+    </Texture>
+   </Textures>
+   <PublicParams BlendFactor="16" BlendFalloff="4" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="1" DetailBumpScale="1" DetailDiffuseScale="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2104000021" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="asphalt" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_asphalt.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_asphalt_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/concrete_1_detail.tif" Map="Detail">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/ground_rock_tile.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/street_rock_asphalt_ddna.tif" Map="[1] Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/ground_rock_tile_mask.tif" Map="Opacity" />
+   </Textures>
+   <PublicParams BlendFactor="8" BlendFalloff="0.1" BlendLayer2Specular="0" BlendLayer2Tiling="1" BlendMaskTiling="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="104000801" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="decal" Opacity="0.5" Shader="Illum" Shininess="40" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_asphalt" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/asphalt_edge_decal.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/street_rocks/textures/asphalt_edge_decal_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams DecalAlphaMult="1" DecalDiffuseOpacity="1" DecalFalloff="1" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock" vertModifType="0">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

@@ -1,0 +1,43 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080040080" LayerAct="1" MatTemplate="" MtlFlags="524424" Name="soil" Opacity="1" Shader="Illum" Shininess="255" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%BUMP_MAP%DISPLACEMENT_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_soil">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/soil_diff.tif" Filter="4" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/mud_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/mud_displ.tif" Map="Heightmap" />
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" bottomDeformation="0" bottomOffsU="0.5" bottomOffsV="0.5" bottomRotation="0" bottomSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" topDeformation="0" topOffsU="0" topOffsV="0" topRotation="0" topSortOffset="0" topTileU="1" topTileV="1" />
+   <PublicParams IndirectColor="0.24680044,0.24680044,0.24680044" SSSIndex="0" TessellationDispBias="0" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1" TessellationHeightScale="0.75" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000080" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trunk" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0097212186,0.0097212186,0.0097212186" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/spruce_trunk_dead_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/spruce_trunk_dead_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.30000001" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2080000080" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="roots" Opacity="1" Shader="Illum" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/roots_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/roots_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_soil">
+   <Textures />
+  </Material>
+  <Material Diffuse="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" GenMask="20800000A0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="surface" Opacity="1" Shader="Illum" Shininess="255" Specular="0.014443845,0.014443845,0.014443845" StringGenMask="%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_soil">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/soil_diff.tif" Map="Diffuse">
+     <TexMod TileU="2" TileV="2" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/soil_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/dirty_blend.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/soil_brown_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/rocks_01/erosion/textures/soil_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="8" BlendFalloff="4" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

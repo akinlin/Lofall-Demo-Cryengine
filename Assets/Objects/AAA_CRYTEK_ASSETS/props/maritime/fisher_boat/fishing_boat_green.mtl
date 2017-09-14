@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" GenMask="400080086205" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="fishing_boat" Opacity="1" Shader="Illum" Shininess="120" Specular="0.21951973,0.21951973,0.21951973" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%BUMP_MAP%DETAIL_MAPPING%DIRTLAYER%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat_spec.tif" Map="Specular" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat_ddn.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/wood_fine_detail_horizontal.tif" Map="Detail">
+     <TexMod TileU="20" TileV="20" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat.tif" Map="Custom" />
+   </Textures>
+   <PublicParams DetailBumpScale="0.75" DetailDiffuseScale="1" DetailGlossScale="0.5" DirtGlossFactor="0" DirtMapAlphaInfluence="1" DirtStrength="0.99000001" DirtTiling="1" DirtTint="0.21204439,0.44787085,0.15415226" FresnelBias="0.2" FresnelScale="1" GlossMapChannelB="0" IndirectColor="0.25,0.25,0.25" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood">
+   <Textures />
+  </Material>
+  <Material Diffuse="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" GenMask="400000040201" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rope" Opacity="1" Shader="Illum" Shininess="45" Specular="0.49950528,0.49950528,0.49950528" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_DIFFUSEALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_ddn.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25" />
+</Material>

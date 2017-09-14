@@ -1,0 +1,87 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.30000001" Diffuse="0.37626216,0.37626216,0.37626216" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_cut" Opacity="1" Shader="Illum" Shininess="255" Specular="0.022173885,0.022173885,0.022173885" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wood_poles_caps_darker_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wood_poles_caps_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2081000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_bark" Opacity="1" Shader="Illum" Shininess="255" Specular="0.028991185,0.028991185,0.028991185" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/trunk_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/trunk_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.94999999" Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood side" Opacity="1" Shader="Illum" Shininess="255" Specular="0.022173885,0.022173885,0.022173885" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/ba_wooden_shed_protection_side_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/ba_wooden_shed_protection_side_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="moss" Opacity="1" Shader="NoDraw" Shininess="255" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood" vertModifType="0">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="roof_tiles" Opacity="1" Shader="Illum" Shininess="255" Specular="0.0097212177,0.0097212177,0.0097212177" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/loghouse_roof_tiles_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/loghouse_roof_tiles_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="40000010" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="glass" Opacity="1" Shader="Glass" Shininess="200" Specular="0.49693301,0.49693301,0.49693301" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP" SurfaceType="mat_glass_unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/glass_diff.tif" Map="Specular" />
+   </Textures>
+   <PublicParams BackLightScale="0.30000001" BumpMapTile="1" BumpScale="0" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.025" TintColor="0.19046287,0.23099814,0.23099814" />
+  </Material>
+  <Material AlphaTest="0.69999999" Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524450" Name="curtains" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/fishing_houses_curtains_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/fishing_houses_curtains_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0.38132605,0.38132605,0.38132605" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="trims" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/fishing_houses_wood_trims_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/fishing_houses_wood_trims_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="0.71569365,0.71569365,0.71569365" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="door" Opacity="1" Shader="Illum" Shininess="255" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/lighthouse_door_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/lighthouse_door_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_red" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556835,0.029556835,0.029556835" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_red_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="81000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood_blue" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556835,0.029556835,0.029556835" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" vertModifType="0">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_blue_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/architecture/buildings_residential/loghouse/textures/wooden_planks_set_b_ddna.tif" Map="Bumpmap" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.79910272,0.79910272,0.79910272" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="frames" Opacity="1" Shader="Illum" Shininess="20" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/breakable_glass/textures/plywood_dark_diff.tif" Map="Diffuse" />
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+  </Material>
+  <Material Diffuse="0.051269464,0.051269464,0.051269464" Emissive="0,0,0" GenMask="14250" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="glass" Opacity="0.75" Shader="Glass" Shininess="220" Specular="0.49693301,0.49693301,0.49693301" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DEPTH_FOG%DIRT_MAP%ENVIRONMENT_MAP" SurfaceType="mat_glass">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/breakable_glass/textures/glass_clear_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/breakable_glass/textures/generic_cubemap_day_cm.tif" Map="Environment" />
+   </Textures>
+   <PublicParams BackLightScale="0.75" BlurAmount="0.5" BumpMapTile="1" BumpScale="0" FogColor="0.010397803,0.010397803,0.010397803" FogCutoffEnd="20" FogDensity="0.5" FresnelBias="1" FresnelScale="1" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0.050000001" TintColor="0.21586053,0.21586053,0.21586053" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="broken_glass" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_glass">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="nodraw" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_glass">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" />
+</Material>

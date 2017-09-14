@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20800000A0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="rock" Opacity="1" Shader="Illum" Shininess="255" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/rock_diff.tif" Map="Diffuse">
+     <TexMod TileU="10" TileV="10" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/rock_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/blend_tile.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/moss_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/moss_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="1" BlendFalloff="4" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="0.1" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20A0000180" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="tree" Opacity="1" Shader="Illum" Shininess="255" Specular="0.016807377,0.016807377,0.016807377" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/spruce_trunk_dead_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/spruce_trunk_dead_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/spruce_trunk_dead_displ.tif" Map="Heightmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/trees_special/fallen_log/textures/palmtrunk_90_detail.tif" Map="Detail">
+     <TexMod TileU="10" TileV="5" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.25" DetailDiffuseScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_rock" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_rock">
+   <Textures />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy_tree" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_wood">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>

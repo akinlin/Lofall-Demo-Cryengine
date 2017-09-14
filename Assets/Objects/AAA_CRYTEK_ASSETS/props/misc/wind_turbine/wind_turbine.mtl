@@ -1,0 +1,39 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="800000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="metal" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665087,0.046665087,0.046665087" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/metal_plain_agedbright_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/metal_plain_agedbright_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/dirt_blend.tif" Map="Opacity" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/ceiling_metal02_diff.tif" Map="Custom" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/ceiling_metal02_ddna.tif" Map="[1] Custom" />
+   </Textures>
+   <PublicParams BlendFactor="10" BlendFalloff="8" BlendLayer2Specular="0.02" BlendLayer2Tiling="1" BlendMaskTiling="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_metal">
+   <Textures />
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000101" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="propeller" Opacity="1" Shader="Illum" Shininess="96" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/metal_plain_agedbright_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/metal_001_detail.tif" Map="Detail">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.1" DetailDiffuseScale="0.25" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000181" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="cone" Opacity="1" Shader="Illum" Shininess="255" Specular="0.029556841,0.029556841,0.029556841" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/trim_brushedmetal_01.tif" Map="Diffuse">
+     <TexMod TileU="0.5" TileV="0.5" />
+    </Texture>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/trim_brushedmetal_01_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/props/misc/wind_turbine/textures/metal_001_detail.tif" Map="Detail">
+     <TexMod TileU="8" TileV="8" />
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.1" DetailDiffuseScale="0.25" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>
